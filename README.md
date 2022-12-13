@@ -7,10 +7,10 @@ My Website is hosted On Netlify And You Can Find It [At](https://eliottpike.tk/)
 This is a personal webiste which i created in under 1 week with html, css and a little bit of Js.
 I stated learning html as part of this project.
 
-# Questions?
+## Questions?
 
 Instagram: [@EliottJp](https://instagram.com/eliottjp)  
-Email: [eliott@eliottjp.com](mailto:eliott@eliottjp)  
+Email: [eliott@eliottjp.com](mailto:eliott@eliottjp)
 
 ## Authors
 
