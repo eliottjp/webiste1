@@ -4,30 +4,17 @@ My Website is hosted On Netlify And You Can Find It [At] (https://eliottpike.tk/
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a personal webiste which i created in under 1 week with html, css and a little bit of Js.
+I stated learning html as part of this project.
 
-## Help
+# Questions?
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Instagram: [@EliottJp](https://instagram.com/eliottjp)  
+Email: [eliott@eliottjp.com](mailto:eliott@eliottjp)  
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+ex. Eliott Pike  
+ex. [@Eliottjp](https://instagram.com/eliottjp)
