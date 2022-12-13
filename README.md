@@ -1,6 +1,6 @@
 # Eliott Pike's Personal Wesite
 
-My Website is hosted On Netlify And You Can Find It [At] (https://eliottpike.tk/)
+My Website is hosted On Netlify And You Can Find It [At](https://eliottpike.tk/)
 
 ## Description
 
