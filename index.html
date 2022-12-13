@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliott Pike - Personal Website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+<link rel="manifest" href="img/fav/site.webmanifest">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sahitya:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2bf5207bf6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main-content" id="home" title="Eliott Pike - Home Page">
+      <div class="main-content1">
+        <div class="name-card-content">
+          <h1 class="first-page-name">Eliott Pike</h1>
+          <h1 class="first-page-title">Techy</h1>
+
+          <p class="name-card-desc">
+            Oh hi, my name is Eliott Pike. I'm 13 years old and am currently
+            learning HTML, CSS, and Javascript. I've been using Python for over
+            4 years and am fluent in it!
+          </p>
+          <a class="read-more" href="#about-section">Read More</a>
+        </div>
+        <div>
+          <img class="avatar" src="img/avatar.png" alt="avatar" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content-page2" id="about-section">
+      <div class="child">
+        <img
+          class="about-cover-photo"
+          src="img/about-cover-photo.jpg"
+          alt="Eliott Pike Standing By A Rock"
+        />
+        <h1 class="main-content-page-title">About Me</h1>
+        <div>
+          <p class="page-2-desc">
+            I'm Eliott Pike, a 13-year-old tech enthusiast and programmer. Since
+            I was a little child, I've used a computer of some kind, and I've
+            always had a passion for technology. I first became interested in
+            coding when I was ten years old. The programme used in every primary
+            school at the time was called Scratch. If this is coding, what is
+            scratch built with? I started researching python and became fluent
+            within the language.
+          </p>
+        </div>
+        <div class="language-icons">
+          <a class="button" href="#popup-python-python1"
+            ><i id="python" class="fa-brands fa-python"></i
+          ></a>
+          <a class="button" href="#popup-python-html1"
+            ><i id="html" class="fa-brands fa-html5"></i>
+          </a>
+          <a class="button" href="#popup-python-css1"
+            ><i id="css" class="fa-brands fa-css3"></i>
+          </a>
+          <a class="button" href="#popup-python-swift1"
+            ><i id="swift" class="fa-brands fa-swift"></i>
+          </a>
+        </div>
+        <p class="page-2-see-more">click on the icons</p>
+
+        <div id="popup-python-python1" class="overlay">
+          <div class="popup-python">
+            <h2>Python</h2>
+            <a class="close-python" href="#about-section">&times;</a>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium, unde perspiciatis, blanditiis labore laudantium
+              officia nobis amet at nulla cumque iure? A necessitatibus non odio
+              consequuntur, temporibus nesciunt vel obcaecati!
+            </div>
+          </div>
+        </div>
+
+        <div id="popup-python-html1" class="overlay">
+          <div class="popup-html">
+            <h2>Here i am</h2>
+            <a class="close-html" href="#about-section">&times;</a>
+            <div class="content">Html</div>
+          </div>
+        </div>
+
+        <div id="popup-python-css1" class="overlay">
+          <div class="popup-css">
+            <h2>Here i am</h2>
+            <a class="close-css" href="#about-section">&times;</a>
+            <div class="content">Css</div>
+          </div>
+        </div>
+
+        <div id="popup-python-swift1" class="overlay">
+          <div class="popup-swift">
+            <h2>Here i am</h2>
+            <a class="close-swift" href="#about-section">&times;</a>
+            <div class="content">Swift</div>
+          </div>
+        </div>
+
+        <div class="read-more-div1">
+          <a class="read-more2" href="#projects-section">Veiw My Projects</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content-page3" id="projects-section">
+      <div class="section3-controller">
+        <h1>My Projects</h1>
+        <div class="page3-parent">
+          <a style="color: rgb(243, 197, 0)" href="pages/project1.html">
+            <div class="projects1">
+              <img src="" class="fa-solid fa-folder" />
+              <img src="" class="fa-solid fa-folder-open" id="hover_img" />
+              <h1 style="font-size: 20px">My First Projects</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content-page4" id="contact-section">
+      <h1>Contact Me</h1>
+      <div class="section4-div">
+        <div class="container">
+          <form
+            action="https://formsubmit.co/eliottpike@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              id="fname"
+              name="first_name"
+              placeholder="Name"
+            />
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://eliottpike.tk /index.html"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="box" />
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Message"
+            ></textarea>
+
+            <button type="submit" name="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- <footer>
+        <div class="footer-content">
+          <h3>Eliott Pike</h3>
+
+          <ul class="socials">
+            <li>
+              <a href="https://github.com/Eliottjp"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/eliottjp/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/eliottjp"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Eliott Pike</a></p>
+          <div class="footer-menu">
+            <ul class="f-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-section">About</a></li>
+              <li><a href="#projects-section">Projects</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer> -->
+    </div>
+    <div id="header"></div>
+  </body>
+</html>
